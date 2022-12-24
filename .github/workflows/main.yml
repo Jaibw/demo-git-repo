@@ -1,8 +1,8 @@
-name: hello-world 
+name: nginx-deployment 
 on: push 
 jobs:
   my-job:
     runs-on: Linux
     steps:
-      - name: message 
-        run: set
+      - name: list the files 
+        run: ls -l 
