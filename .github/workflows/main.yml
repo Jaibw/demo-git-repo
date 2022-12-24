@@ -4,5 +4,7 @@ jobs:
   my-job:
     runs-on: Linux
     steps:
+      - name: Checkout 
+        uses: actions/checkout@v3 
       - name: list the files 
         run: ls -l 
