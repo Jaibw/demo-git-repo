@@ -7,6 +7,6 @@ jobs:
       - name: Checkout 
         uses: actions/checkout@v3 
       - name: Checking Docker Images   
-        shell: pwsh
+        shell: powershell
         run: |
           docker version
